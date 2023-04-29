@@ -74,16 +74,41 @@ img {
 
 .about .dropdown{
     margin-top: 80px;
+    width: 50%; /* largeur du bloc */
+    margin: 0 auto; /* centre le bloc horizontalement */
+    text-align: center; /* aligne le texte à gauche à l'intérieur du bloc */
 }
 
 footer p {
     margin-bottom: 0;
 }
- .paws {
-     width: 20px;
- }
+.paws {
+    width: 20px;
+}
 
- footer p {
-     font-size: 15px;
-     font-weight: 100;
- }
+footer p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.txt-bts {
+    width: 50%; /* largeur du bloc */
+    margin: 0 auto; /* centre le bloc horizontalement */
+    text-align: center; /* aligne le texte à gauche à l'intérieur du bloc */
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}

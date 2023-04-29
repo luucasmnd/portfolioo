@@ -10,7 +10,7 @@ Le formulaire de contact envoie les messages vers **ma** boîte mail.
 Si vous copiez mon portfolio, veillez à **_changer_** l'adresse contenue dans le balise form comme suit :
 
 ```html
-<form action="https://formsubmit.co/votre_adresse@email.com" method="POST">
+<form action="https://formsubmit.co/votre_adresse@mail.com" method="POST">
   <!-- vos inputs --!>
 </form>
 ```

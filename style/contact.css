@@ -1,3 +1,4 @@
+
 .contactForm {
     background: #111;
 }
@@ -52,7 +53,7 @@
 }
 
 .formBx form input[type="submit"] {
-    max-width: 150px;
+    max-width: 300px;
     background: var(--lBlue);
     cursor: pointer;
     text-transform: uppercase;
